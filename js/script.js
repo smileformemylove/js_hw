@@ -2,7 +2,7 @@
 
 // Task #1
 let admin = "admin";
-let name = "John";
+const name = "John";
 admin = name;
 alert(` ${admin}`);
 
@@ -11,10 +11,10 @@ let planetName = "";
 planetName = "Mars"
 console.log(planetName)
 
-let userName = prompt("Будь ласка, введіть своє ім'я:");
+const userName = prompt("Будь ласка, введіть своє ім'я:");
 console.log("Ім'я відвідувача: " + userName);
 
 // Task #3
-let sum = "10" + 10;
+const sum = "10" + 10;
 console.log(sum);
 
